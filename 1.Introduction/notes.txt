@@ -1,0 +1,5 @@
+We can create our own packages by creating a folder packages in side it a __init__.py it must be there even if its empty 
+then create a math.py where ylu can defin any number of functions 
+
+you can call it by 
+import package.maths import *
