@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Form Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow-sm mx-auto" style="max-width: 500px;">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">Submit Data</h2>
+                
+                <form action="/results" method="POST">
+                    <div class="mb-3">
+                        <label for="score" class="form-label">Enter your Score (0-100):</label>
+                        <input type="number" class="form-control" name="score" id="score" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Check Result</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
