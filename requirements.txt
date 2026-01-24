@@ -10,3 +10,4 @@ streamlit
 bs4
 flask
 tensorflow
+streamlit
